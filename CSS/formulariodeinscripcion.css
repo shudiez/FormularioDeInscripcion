@@ -1,0 +1,87 @@
+body{
+      background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      opacity: .95;
+  font-family: 'Abel', sans-serif;
+}
+* {
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+ div {
+    display: block;
+   margin: 2% auto 10% auto;
+    text-align: center;
+}
+header p {
+    letter-spacing: 0.05em;
+  
+}
+cajita{
+  display: flex;
+  justify-content: space-around; 
+}
+button{
+      appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+      word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+      font: 400 13.3333px Arial;
+
+}
+button {
+    display: inline-block;
+    color: #252537;
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
